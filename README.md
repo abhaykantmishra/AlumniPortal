@@ -126,8 +126,6 @@ Admins can track alumni engagement, event participation, and overall platform ac
 4. **Admin Section**: Admins manage alumni profiles, accounts, and events.
 5. **End Sessions**: Users and admins can end their sessions after completing tasks.
 
-## Technology
 
-The schema is created using **Eraser.io**, a visual collaboration and diagramming tool that helps map out processes and workflows efficiently.
 
 
