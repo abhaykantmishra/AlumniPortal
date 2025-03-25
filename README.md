@@ -47,17 +47,41 @@ Helps alumni find and connect with fellow alumni in their city or industry for n
 Admins can track alumni engagement, event participation, and overall platform activity through analytics dashboards.  
 
 
-## 🛠️ Tech Stack
 
-- **Frontend**: [Next.js](https://nextjs.org/) for SSR & SSG and fast development, [Tailwind CSS](https://tailwindcss.com/) better code readablity and management
-- **Backend**: [Node.js](https://nodejs.org/), [Express.js](https://expressjs.com/) - microservice architecture for scalability of backend.
-- **Database**: [MongoDB](https://www.mongodb.com/)- Fast read and write and easiar to use than SQL databases.
-- **Payment Integration**: [RazorPay]
-- **Real-Time Communication**: [Socket.io](https://socket.io/) for real time messaging feature.
-- **Image Hosting**: [Cloudinary](https://cloudinary.com/)- for better image optimization and formatting.
-- **Containerization**: [Docker](https://www.docker.com/) 
-- **Animations**: [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/) - for smooth animation providing better user experience.
-- **Cloud Hosting**: Used combination of AWS EC2 & AWS Lambda for backend servers, And Vercel for hosting frontend.
+# 🛠 Tech Stack
+
+## 🚀 Frontend  
+- **Next.js** – Leverages **SSR (Server-Side Rendering)** and **SSG (Static Site Generation)** for enhanced performance and SEO.  
+- **Tailwind CSS** – Ensures clean, scalable, and maintainable styling for faster development.  
+
+## 🔥 Backend  
+- **Node.js & Express.js** – Implements a **microservices architecture** for scalability and modularity.  
+
+## 💾 Database  
+- **MongoDB** – NoSQL database offering **fast read/write operations** and easy scalability compared to traditional SQL databases.  
+
+## 💳 Payment Integration  
+- **Razorpay** – Secure and seamless payment gateway integration for handling transactions.  
+
+## ⚡ Real-Time Communication  
+- **Socket.io** – Enables **real-time messaging** for instant interactions between users.  
+
+## 🖼️ Image & Media Hosting  
+- **Cloudinary** – Optimizes and serves images efficiently for **better performance and reduced load times**.  
+
+## 🏗️ Containerization & Deployment  
+- **Docker** – Simplifies containerized deployment, ensuring consistency across environments.  
+- **AWS EC2 & AWS Lambda** – Combines **scalable server-based and serverless solutions** for optimized backend performance.  
+- **Vercel** – Provides **fast, efficient, and automated frontend deployment** for seamless user experiences.  
+
+## 🎭 Animations & UI Enhancements  
+- **GSAP (GreenSock Animation Platform)** – Enables **smooth, high-performance animations**, enhancing user engagement.  
+
+## 🛡️ Performance & Load Testing  
+- **k6** – Ensures backend scalability and robustness through **stress, load, and performance testing**.  
+
+This stack is optimized for high performance, scalability, and seamless user experience. 🚀  
+
 
 
 # LinkLum - User Flow Schema
