@@ -5,46 +5,59 @@ Welcome to the **Alumni Portal**, a web platform designed to connect alumni with
 # 🚀 Key Features
 
 ### 📝 Alumni Registration  
-Alumni can register their profiles, including personal and professional details, to stay connected with their college.  
+- Create & manage **detailed alumni profiles** with career highlights.  
+- Organize and participate in **networking events & mentorship programs**.  
+- Feature **prominent alumni** to inspire and guide current students.  
+- Access **exclusive job postings & donation portals** to contribute to the alma mater.   
 
-### 🛠️ Admin Dashboard  
-Admins have full control to approve, update, and manage alumni profiles, ensuring accurate and up-to-date information.  
+### 🏫 Student Registration  
+- Register with **controlled access** and permissions.  
+- Apply for **internships & job opportunities** within the platform.  
+- Engage with **alumni for career guidance & mentorship**.
+
+### 🔐 Admin Access  
+- **Manage alumni & student profiles** with approval workflows.  
+- Oversee **event management, featured alumni, and platform security**.  
+- Maintain an **active job board & donation portal**.  
 
 ### 📅 Event Management  
-Admins can create and manage upcoming alumni events, ensuring greater participation from the community.  
+- Colleges can **organize exclusive alumni & student events**.  
+- Users can **RSVP, participate, and engage in networking sessions**. 
 
 ### 🌟 Featured Alumni  
-Highlight distinguished alumni by displaying their image, name, and current role, providing inspiration and connection to others.  
+- Highlight distinguished alumni by displaying their image, name, and current role, providing inspiration and connection to others.  
 
 ### 💬 Real-Time Messaging  
-Alumni and students can connect through instant messaging, fostering mentorship, networking, and collaboration.  
+- **Verified students & alumni** can connect instantly through **secure messaging**.  
+- Encourages **mentorship, career discussions, and networking**.    
 
 ###  🎓 Student Hub  
-A dedicated space for students to propose ideas, seek guidance from alumni, and raise concerns related to academics and college life.  
+- A dedicated space for students to propose ideas, seek guidance from alumni, and raise concerns related to academics and college life.  
 
 ### 🚀 Startup & Project Showcase  
-Students and alumni can showcase their innovative projects, startups, and research work to attract support and collaboration.  
+- Students and alumni can showcase their innovative projects, startups, and research work to attract support and collaboration.  
 
 ### 📢 Discussion Forums  
-Engage in topic-based discussions where alumni and students can share insights, experiences, and career advice.  
+- Engage in topic-based discussions where alumni and students can share insights, experiences, and career advice.  
 
 ### 📰 Alumni Blog & News  
-A blog section where alumni can share their success stories, industry insights, and important updates about their professional journeys.  
+- A blog section where alumni can share their success stories, industry insights, and important updates about their professional journeys.  
 
 ### 🎯 Job & Internship Portal  
-Alumni and companies can post job and internship opportunities exclusively for students and recent graduates.  
+- Alumni and companies can post job and internship opportunities exclusively for students and recent graduates.  
 
 ### 🤝 Mentorship Program  
-Pair students with experienced alumni mentors to provide career guidance, resume reviews, and professional advice.  
+- Pair students with experienced alumni mentors to provide career guidance, resume reviews, and professional advice.  
 
 ### 📸 Photo & Media Gallery  
 A shared gallery for event photos, college memories, and alumni achievements.  
 
-### 📍 Location-Based Alumni Network  
-Helps alumni find and connect with fellow alumni in their city or industry for networking and meetups.  
+### 📖 Alumni Directory  
+- **Advanced search filters**: Find alumni by **year of passing, name, branch, location, and profession**.  
+- **Profile browsing**: Gain insights into alumni career paths & achievements.  
 
 ### 📊 Analytics & Engagement Reports  
-Admins can track alumni engagement, event participation, and overall platform activity through analytics dashboards.  
+- Admins can track alumni engagement, event participation, and overall platform activity through analytics dashboards.  
 
 
 
