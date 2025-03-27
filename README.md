@@ -2,127 +2,70 @@
 
 Welcome to the **LinkLum**, a web platform designed to connect alumni with their college, fostering a vibrant and engaged alumni network. This portal allows alumni to register their profiles, stay updated on events, and engage with their alma mater. The admin dashboard enables administrators to easily manage alumni profiles and promote upcoming events.
 
-# 🚀 Key Features
+## 📌 Achievements
+We developed during the **Internal Smart India Hackathon**, where our team secured **🏆 1st Place**. I was responsible for:  
+- Architecting the **scalable system design** and development strategy  
+- Leading a **cross-functional team** of developers, designers, and strategists  
+- Implementing **high-performance features** 
+- Ensuring **100/100 Google Lighthouse scores** for **Performance, SEO, Accessibility & Best Practices**  
+![LinkLum Performance](./public/image/googleLightHouse.jpg)
+- Successfully handling **100,000+ concurrent users** through K6 load testing  
 
-### 📝 Alumni Registration  
-- Create & manage **detailed alumni profiles** with career highlights.  
-- Organize and participate in **networking events & mentorship programs**.  
-- Feature **prominent alumni** to inspire and guide current students.  
-- Access **exclusive job postings & donation portals** to contribute to the alma mater.   
+## 🚀 Key Features  
 
-### 🏫 Student Registration  
-- Register with **controlled access** and permissions.  
-- Apply for **internships & job opportunities** within the platform.  
-- Engage with **alumni for career guidance & mentorship**.
+### 🎓 Alumni & Student Features  
+- 📝 **Alumni and Student Registration**: Alumni and Student can register and maintain an up-to-date profile.  
+- 📂 **Profile & Portfolio Management**: Users can showcase their resumes, skills, and achievements.  
+- 💼 **Job Portal**: Alumni can post job openings, and students can apply for them.  
+- 💬 **Networking & Messaging**: Direct messaging system for alumni and students to connect.  
+- 🎤 **Mentorship Program**: Alumni can sign up as mentors and provide career guidance.  
+- 🔍 **Smart College Directory**: Users can search for and register under their respective colleges.  
 
-### 🔐 Admin Access  
-- **Manage alumni & student profiles** with approval workflows.  
-- Oversee **event management, featured alumni, and platform security**.  
-- Maintain an **active job board & donation portal**.  
+### 🏫 College & Admin Management  
+- 🏛 **College Registration & Verification**: Institutions can register, verify details, and gain admin access.  
+- 👨‍💻 **Admin Dashboard**: Controls user profiles, events, and alumni engagement.  
+- 🌟 **Featured Alumni Section**: Highlight accomplished alumni with their success stories.  
+- 📅 **Event Management**: Admins can organize, promote, and manage alumni events.  
+- 💰 **Donation Portal**: Alumni can contribute financially to their college through a dedicated system.  
 
-### 📅 Event Management  
-- Colleges can **organize exclusive alumni & student events**.  
-- Users can **RSVP, participate, and engage in networking sessions**. 
+### 🔍 Advanced Search & Analytics  
+- 📊 **User Engagement Analytics**: Track job applications, event participation, and alumni interactions.  
+- 🔎 **Advanced Search & Filters**: Find alumni, jobs, events, or mentors based on criteria like skills, batch year, or location.  
 
-### 🌟 Featured Alumni  
-- Highlight distinguished alumni by displaying their image, name, and current role, providing inspiration and connection to others.  
+### 🔐 Security & Authentication  
+- 🔑 **Secure Authentication**: JWT-based authentication with OAuth login options.  
+- 🛡️ **Role-Based Access Control**: Distinct permissions for students, alumni, and admins.  
 
-### 💬 Real-Time Messaging  
-- **Verified students & alumni** can connect instantly through **secure messaging**.  
-- Encourages **mentorship, career discussions, and networking**.    
+## 🛠️ Tech Stack  
 
-###  🎓 Student Hub  
-- A dedicated space for students to propose ideas, seek guidance from alumni, and raise concerns related to academics and college life.  
+### 🎨 Frontend  
+- 🚀 **[Next.js](https://nextjs.org/)** – React framework for fast, SEO-friendly applications.  
+- 🎨 **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for responsive design.  
+- 🎭 **[Framer Motion](https://www.framer.com/motion/)** – Advanced animations and smooth UI transitions.  
 
-### 🚀 Startup & Project Showcase  
-- Students and alumni can showcase their innovative projects, startups, and research work to attract support and collaboration.  
+### 🖥️ Backend  
+- ⚡ **[Node.js](https://nodejs.org/)** – Scalable JavaScript runtime for backend development.  
+- 🔧 **[Express.js](https://expressjs.com/)** – Minimal and flexible Node.js framework.  
 
-### 📢 Discussion Forums  
-- Engage in topic-based discussions where alumni and students can share insights, experiences, and career advice.  
-
-### 📰 Alumni Blog & News  
-- A blog section where alumni can share their success stories, industry insights, and important updates about their professional journeys.  
-
-### 🎯 Job & Internship Portal  
-- Alumni and companies can post job and internship opportunities exclusively for students and recent graduates.  
-
-### 🤝 Mentorship Program  
-- Pair students with experienced alumni mentors to provide career guidance, resume reviews, and professional advice.  
-
-### 📸 Photo & Media Gallery  
-A shared gallery for event photos, college memories, and alumni achievements.  
-
-### 📖 Alumni Directory  
-- **Advanced search filters**: Find alumni by **year of passing, name, branch, location, and profession**.  
-- **Profile browsing**: Gain insights into alumni career paths & achievements.  
-
-### 📊 Analytics & Engagement Reports  
-- Admins can track alumni engagement, event participation, and overall platform activity through analytics dashboards.  
-
-
-
-# 🛠 Tech Stack
-
-### 🚀 Frontend  
-- **Next.js** – Leverages **SSR (Server-Side Rendering)** and **SSG (Static Site Generation)** for enhanced performance and SEO.  
-- **Tailwind CSS** – Ensures clean, scalable, and maintainable styling for faster development.  
-
-### 🔥 Backend  
-- **Node.js & Express.js** – Implements a **microservices architecture** for scalability and modularity.  
-
-### 💾 Database  
-- **MongoDB** – NoSQL database offering **fast read/write operations** and easy scalability compared to traditional SQL databases.  
+### 🗄️ Database & Caching  
+- 🛢️ **[MongoDB](https://www.mongodb.com/)** – NoSQL database for efficient data storage and retrieval.  
+- ⚡ **[Redis](https://redis.io/)** – In-memory caching to improve performance.  
 
 ### 💳 Payment Integration  
-- **Razorpay** – Secure and seamless payment gateway integration for handling transactions.  
+- 💰 **[Stripe](https://stripe.com/)** – Secure and seamless online payment processing.  
 
-### ⚡ Real-Time Communication  
-- **Socket.io** – Enables **real-time messaging** for instant interactions between users.  
+### 🔄 Real-Time Communication  
+- 📡 **[Socket.io](https://socket.io/)** – Enables real-time, bidirectional event-based communication.  
 
 ### 🖼️ Image & Media Hosting  
-- **Cloudinary** – Optimizes and serves images efficiently for **better performance and reduced load times**.  
+- ☁️ **[Cloudinary](https://cloudinary.com/)** – Cloud-based image and video management service.  
 
-### 🏗️ Containerization & Deployment  
-- **Docker** – Simplifies containerized deployment, ensuring consistency across environments.  
-- **AWS EC2 & AWS Lambda** – Combines **scalable server-based and serverless solutions** for optimized backend performance.  
-- **Vercel** – Provides **fast, efficient, and automated frontend deployment** for seamless user experiences.  
+### 📊 Performance & Testing  
+- 🏎 **[K6](https://k6.io/)** – Load testing for high-performance applications.  
 
-### 🎭 Animations & UI Enhancements  
-- **GSAP (GreenSock Animation Platform)** – Enables **smooth, high-performance animations**, enhancing user engagement.  
-
-### 🛡️ Performance & Load Testing  
-- **k6** – Ensures backend scalability and robustness through **stress, load, and performance testing**.  
-
-
-
-## 🏆 Achievements  
-
-- **🚀 100% Performance & Best Practices**  
-  - Achieved **perfect Lighthouse scores** in **Performance, Best Practices, and SEO** with a high level of **Accessibility**.  
-
-- **⚡ High Scalability & Load Handling**  
-  - Successfully handled **20K+ concurrent users** with optimized performance, tested using **k6 load testing**.  
-
-- **⏳ Ultra-Fast API Response Time**  
-  - Leveraged **microservices architecture** to ensure **low-latency responses** and high availability.  
-  - Optimized database queries and caching for **sub-millisecond response times**.  
-
-- **🔒 Secure & Reliable Infrastructure**  
-  - Implemented **JWT-based authentication** and **role-based access control (RBAC)** for enhanced security.  
-  - Adopted **Dockerized microservices** with **AWS EC2 & Lambda** for scalable deployment.  
-
-- **📈 Optimized Frontend for Speed & UX**  
-  - Achieved **instant page loads** using **Next.js with SSR & SSG**.  
-  - Smooth animations powered by **GSAP**, enhancing user engagement.  
-
-- **📡 Real-Time Communication at Scale**  
-  - Implemented **Socket.io** for **seamless real-time messaging** with optimized socket handling.  
-
-- **🛠️ Efficient CI/CD & Deployment**  
-  - Automated deployment pipeline using **GitHub Actions & Vercel for frontend**.  
-  - Backend services deployed with **Docker, AWS EC2, and Lambda** for reliability.  
-
-
+### 🏗️ Deployment & Hosting  
+- 🐳 **[Docker](https://www.docker.com/)** – Containerization for easy deployment and scaling.  
+- ☁️ **[Vercel](https://vercel.com/)** – Fast and scalable hosting for frontend applications.  
 ## High-Level System Architecture
 
 ```mermaid
@@ -191,9 +134,8 @@ graph TD;
     Messaging --> EndUserSession;
     BrowseJobs --> EndUserSession;
     AccessDonation --> EndUserSession;
+
 ```
-
-
 ## Flowchart Description
 
 1. **Start**: Users begin by visiting the app.
@@ -205,6 +147,17 @@ graph TD;
 4. **Admin Section**: Admins manage alumni profiles, accounts, and events.
 5. **End Sessions**: Users and admins can end their sessions after completing tasks.
 
+## Project Preview
 
+[View on Eraser ![](https://app.eraser.io/workspace/nUk7TGsdzzudksvIKjeZ/preview?elements=iqTZG7Ls-pERnVCsI1O5mA&type=embed)](https://app.eraser.io/workspace/nUk7TGsdzzudksvIKjeZ?elements=iqTZG7Ls-pERnVCsI1O5mA)
+
+## Other Repo Link 
+ https://github.com/linklum-in
+## ppt
+ https://www.canva.com/design/DAGY6EEAUA4/A0VgXf-8a7CFDZY0WzDwcg/edit?utm_content=DAGY6EEAUA4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+## Api Documentation
+ https://documenter.getpostman.com/view/34081966/2sAYBa8omX
+## Wireframe
+https://www.figma.com/design/SiW6hPrlfvCk7APza0RDVQ/Untitled?node-id=0-1&m=dev&t=KcAuJBo5yOSlC6f0-1
 
 
