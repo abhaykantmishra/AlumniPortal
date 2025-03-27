@@ -123,6 +123,76 @@ A shared gallery for event photos, college memories, and alumni achievements.
   - Backend services deployed with **Docker, AWS EC2, and Lambda** for reliability.  
 
 
+## High-Level System Architecture
+
+```mermaid
+graph TD;
+    subgraph "Frontend (Client-Side)"
+        A[Next.js Frontend] -->|Requests| API_Gateway
+    end
+
+    subgraph "Backend (Microservices Layer)"
+        API_Gateway[API Gateway] -->|Routes Request| UserService
+        API_Gateway --> CollegeService
+        API_Gateway --> ChatService
+
+        subgraph "User Microservice"
+            UserService[User Service] -->|CRUD Operations| MongoDB_Users[(MongoDB Users)]
+            UserService -->|Authentication| AuthService[Auth Service - JWT & OAuth]
+        end
+
+        subgraph "College Microservice"
+            CollegeService[College Service] -->|Manage College Data| MongoDB_College[(MongoDB Colleges)]
+            CollegeService -->|Admin & Events| EventService[Event Management]
+        end
+
+        subgraph "Chat Microservice"
+            ChatService[Chat Service] -->|Real-time Messaging| Redis_Cache[(Redis Cache)]
+            ChatService -->|Socket Communication| SocketIO[Socket.io]
+        end
+    end
+
+    subgraph "External Integrations"
+        Payment[Stripe Payment Gateway] -->|Secure Transactions| API_Gateway
+        ImageHosting[Cloudinary] -->|Image Storage| API_Gateway
+        Deployment[Vercel & Docker] -->|Hosting & Deployment| A
+    end
+
+    Logging[Monitoring & Analytics] -->|Performance Tracking| API_Gateway
+
+```
+
+# User Flow 
+
+```mermaid
+graph TD;
+    Start -->|College Registers| VerifyPayment[Verify Payment & Details];
+    Start -->|User Visits App| ChooseReg[Choose Registration Type];
+    VerifyPayment --> GrantAdmin[Grant Admin Access];
+    GrantAdmin --> ManageAccounts[Manage Accounts];
+    GrantAdmin --> ManageEvents[Manage Events];
+    GrantAdmin --> FeatureAlumni[Feature Alumni];
+    GrantAdmin --> EndAdminSession[End Admin Session];
+    ChooseReg --> SearchCollege[Search College in Directory];
+    SearchCollege -->|College Registered?| RegCheck{Yes or No};
+    RegCheck -->|Yes| AlumniReg[Alumni Registration];
+    RegCheck -->|No| StudentReg[Student Registration];
+    AlumniReg --> ProfileCreation[Profile Creation];
+    StudentReg --> ProfileRestrict[Profile Creation & Restrictions];
+    ProfileCreation --> AccessDonation[Access Donation Portal];
+    ProfileCreation --> PostJobs[Post Job Opportunities];
+    ProfileCreation --> ApplyJobs[Apply for Jobs];
+    ProfileCreation --> JobPortal[Access Job Portal];
+    ProfileCreation --> Messaging;
+    ProfileCreation --> BrowseJobs[Browse Jobs];
+    PostJobs --> EndUserSession[End User Session];
+    ApplyJobs --> EndUserSession;
+    JobPortal --> EndUserSession;
+    Messaging --> EndUserSession;
+    BrowseJobs --> EndUserSession;
+    AccessDonation --> EndUserSession;
+```
+
 
 ## Project Preview
 
