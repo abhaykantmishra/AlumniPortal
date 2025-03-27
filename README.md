@@ -194,10 +194,6 @@ graph TD;
 ```
 
 
-## Project Preview
-
-[View on Eraser ![](https://app.eraser.io/workspace/nUk7TGsdzzudksvIKjeZ/preview?elements=iqTZG7Ls-pERnVCsI1O5mA&type=embed)](https://app.eraser.io/workspace/nUk7TGsdzzudksvIKjeZ?elements=iqTZG7Ls-pERnVCsI1O5mA)
-
 ## Flowchart Description
 
 1. **Start**: Users begin by visiting the app.
